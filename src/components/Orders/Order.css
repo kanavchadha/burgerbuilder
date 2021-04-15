@@ -1,0 +1,37 @@
+.Order{
+    display: flex;
+    background: rgb(211, 176, 129);
+    width: 80%;
+    flex-direction: column;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 10px #ccc;
+    padding: 10px 40px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.Ingds{
+    border: 1.2px dashed rgb(172, 168, 168);
+    background: lavender;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 10px;
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.Price{
+    margin: auto 20px;
+    color: white;
+    font-weight: 900;
+    font-size: 1.32em;
+    background: forestgreen;
+    border-radius: 25px;
+    padding: 5px 8px;
+}
+
+@media(max-width: 980px){
+    .Order{
+        width: 100%;
+    }
+}

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+
+.header{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://www.kufstein.com/feratel/info/large/kufstein-happy-burger-burger.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.header h1{
+    font-size: 8vw;
+    text-shadow: 2px 5px 8px rgba(0,0,0,0.8);
+    font-family: 'Nosifer', cursive;
+    width:100%;
+    color: rgb(189, 177, 13);
+    text-align: center;
+    font-weight: bold;
+    margin: 0 !important;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+} 
+.header h3{
+    color: rgb(199, 188, 41);
+    font-size: 5vw;
+    text-shadow: 2px 4px 6px rgba(0,0,0,0.6);
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    margin: 0 !important;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+} 
+
+.OrderNow{
+    padding: 10px 20px;
+    background: rgb(204, 97, 20);
+    color: whitesmoke;
+    outline: none;
+    border: 1.4px solid brown;
+    border-radius: 50px;
+    font-size: 1.6rem;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.6);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.OrderNow:hover{
+    transform: scale(1.12);
+}
+
+@media(max-width: 560px){
+    .header h1, .header h3{
+        font-size: 2.5rem;
+    }
+}

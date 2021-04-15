@@ -1,0 +1,11 @@
+@media(min-width: 981px){
+    .Burger{
+        display: flex;
+        flex: 50%;
+
+    }
+    .Stuff{
+        display: flex;
+        flex: 50%;
+    }
+}

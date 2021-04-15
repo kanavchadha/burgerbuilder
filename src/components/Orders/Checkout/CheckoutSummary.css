@@ -1,0 +1,16 @@
+.Summary{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.MyBurger{
+    /* height: 300px; */
+    width: 100%;
+}
+
+@media(max-width: 980px){
+    .Summary{
+        width: 100%;
+    }
+}
